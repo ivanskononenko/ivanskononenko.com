@@ -3,7 +3,6 @@ os: Visual Studio 2015
   
 before_build:
  - cmd: dotnet restore ./src/ivanskononenko.com.dataaccess
- - cmd: dotnet restore ./src/WilderBlog.Commands
  - cmd: dotnet restore ./src/ivanskononenko.com
 
 build_script:
